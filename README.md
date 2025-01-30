@@ -1,4 +1,4 @@
-# Sistem Rekomendasi Film dengan Machine Learning - Bayu Firmansyah
+# Sistem Rekomendasi Film dengan Machine Learning
 ###### 
 
 
@@ -84,10 +84,12 @@ Variabel pada file `rating_small.csv` adalah sebagai berikut.
 Analisis univariat  digunakan untuk memahami dan menganalisis satu variabel tunggal dalam dataset. Pada metode ini, perhatian diberikan pada karakteristik dan distribusi variabel tersebut secara individual, tanpa mempertimbangkan kaitannya dengan variabel lain dalam dataset.
 
 ![Gambar1](img/genre.png)
+
 **Gambar 1. Genre Terpopuler**
 
 
 ![Gambar4](img/rates.png)
+
 **Gambar 2. Distribusi rating dari pengguna**
 
 Dari hasil visualisasi tersebut, kesimpulan informasi yang bisa didapat sebagai berikut: Tiga jenis genre tertinggi yaitu *Drama*, *Comedy*, dan *Thriller*. Nilai *rating* berkisar antara 0.5 - 5, film dengan *rating* 4.0 paling banyak.
@@ -208,6 +210,7 @@ Di mana:
 Berikut grafik visualisasi RMSE terhadap epoch pada Gambar 3 : 
 
 ![Gambar3](img/evaluation.png)
+
 **Gambar 3.**
 
 Pada model *collaborative filtering*, diperoleh nilai RMSE sebesar 0.1757 pada data training, hal ini menunjukkan bahwa prediksi model cenderung mendekati nilai aktual pada data training, nilai *loss* pada data training sebesar 0.5763. Nilai RMSE pada data testing  adalah 0.2039 yang menunjukkan peningkatan lebih besar dibanding nilai RMSE data training. Nilai *loss* pada data testing sebesar 0.6023 yang mengalami peningkatan kesalahan pada data testing. Hasil ini sudah cukup baik untuk sistem rekomendasi. nilai RMSE pada data training maupun testing tidak mengalami penurunan signifikan setelah 20 epoch.
